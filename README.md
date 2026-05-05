@@ -2,6 +2,10 @@
 
 A full-stack team task management web application built with **React**, **Node.js/Express**, and **MongoDB**. Supports role-based access control, project and task management, and a live dashboard with task analytics.
 
+### 🌐 Live Links
+- **Live Application:** [https://taskflow-production-50d6.up.railway.app](https://taskflow-production-50d6.up.railway.app/)
+- **Backend API:** [https://taskflow-production-334e.up.railway.app/api](https://taskflow-production-334e.up.railway.app/api)
+
 ---
 
 ## 📸 Features
@@ -79,8 +83,8 @@ Task_Manager/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/task-manager.git
-cd task-manager
+git clone https://github.com/Gangadhar-gdvs/TaskFlow.git
+cd TaskFlow
 ```
 
 ### 2. Backend Setup
@@ -152,7 +156,7 @@ JWT_SECRET=your_production_secret
 3. Add this environment variable:
 
 ```
-REACT_APP_API_URL=https://your-backend.railway.app/api
+REACT_APP_API_URL=https://taskflow-production-334e.up.railway.app/api
 ```
 
 4. Railway will run `npm run build` and serve the static files
